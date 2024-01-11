@@ -1,0 +1,23 @@
+/* header{
+    color: red;
+} */
+
+/* button a {
+    background-color: red;
+} */
+
+.header h1{
+    font-size: 40px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.header{
+    margin-right: 10px;
+}
