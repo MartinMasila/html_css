@@ -29,3 +29,12 @@
 .SoftwareDevPartTime{
     color: red;
 }
+
+.SubmitApplication{
+    background-color: rgba(254, 52, 72, 1);
+    border-color: rgba(254, 52, 72, 1);
+    color: #ffffff;
+    border-radius: 5px;
+    min-width: 100%;
+
+}

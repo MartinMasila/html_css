@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Today - Zindua School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- Lesson 3 Forms - 10th Jan 2024 -->
+<h1 class="ApplyZindua">Apply to Zindua School</h1>
+<p class="LearnToCode" style="font-size:1.25rem">Learn to code today and launch a lucrative career in tech.</p>
+<form action="/submit" method="post"></form>
+<label for="firstname" aria-label="First Name">First Name</label>
+<div class="firstnameinput"><input type="text" name="firstname" id="firstname" placeholder="Martin"></div>
+<label for="lastname" aria-label="Last Name">Last Name</label>
+<div class="lastnameinput"><input type="text" name="lastname" id="lastname" placeholder="Masila"></div>
+<label for="phonenumber" aria-label="Phone Number">Phone Number</label>
+<div class="phone"><input type="tel" name="lastname" id="lastname" placeholder="712250271"></div>
+<label for="email" aria-label="Email Address">Email Address</label>
+<div class="email"><input type="email" name="email" id="email" placeholder="masilamartin@yahoo.com"></div>
+<label for="dropdown" aria-label="Choose your preferred program">Choose your preferred program</label>
+<select name="dropdown" id="dropdown">
+    <option value="">– Select –</option>
+    <option value="Data PT">Data Science Part-Time (25 weeks)</option>
+    <option value="Software PT">Software Engineering Part-Time (25 weeks)</option>
+    <option value="Software FT">Software Engineering Full-Time (15 weeks)</option>
+    <option value="Undecided">Undecided. Help me choose a program!</option></select>
+
+    <button type="submit" class="SubmitApplication">Complete Application</button>
+</body>
+</html>
