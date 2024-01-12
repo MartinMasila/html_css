@@ -77,3 +77,18 @@ th{
     background-color: #ff99c8;
     box-sizing: border-box;
 }
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.grid1{
+   
+    padding: 20px;
+    background-color: #ff99c8;
+    box-sizing: border-box;
+}
