@@ -63,3 +63,17 @@ th{
     margin: 100px;
 
 }
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.column{
+    flex: 1;
+    padding: 20px;
+    background-color: #ff99c8;
+    box-sizing: border-box;
+}
