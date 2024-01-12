@@ -7,7 +7,7 @@
 } */
 
 body{
-    font-family: 'Lemon', serif;
+    font-family: lato;
     font-size: 10px;
 }
 
@@ -97,4 +97,10 @@ th{
     padding: 20px;
     background-color: #ff99c8;
     box-sizing: border-box;
+}
+
+.Unorderedlist{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
 }
